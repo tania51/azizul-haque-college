@@ -4,7 +4,7 @@ import StickyNavbar from "../components/Shared/Navbar/StickyNavbar";
 
 const Layout = () => {
     return (
-        <div>
+        <div className="font-serif">
             <StickyNavbar></StickyNavbar>
             <Outlet></Outlet>
         </div>

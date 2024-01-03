@@ -11,9 +11,9 @@ import 'swiper/css/navigation';
 
 const Banner = () => {
   return (
-    <div className='px-20 bg-teal-300 h-[70vh] flex items-center' style={{
+    <div className='px-20 bg-teal-300 h-[70vh] flex items-center bg-cover' style={{
       'background-image':
-        'url(https://swiperjs.com/demos/images/nature-1.jpg)',
+        'url(https://upload.wikimedia.org/wikipedia/commons/8/80/Government_Azizul_Haque_College.jpg)',
     }}>
       <Swiper
         style={{
